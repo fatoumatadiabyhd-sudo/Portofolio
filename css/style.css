@@ -40,6 +40,11 @@ img { max-width: 100%; height: auto; border: 1px solid var(--trait); }
 code { font-size: .9em; background: #eef2f5; padding: 0 .25rem; }
 footer { margin-top: 3rem; padding-bottom: 2rem; font-size: .85rem; color: var(--doux); border-top: 1px solid var(--trait); }
 @media (max-width: 520px) {
-  body { font-size: 16px; }
+  body { font-size: 16px;
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ margin: 0;
+ background: #f5f7fb;
+ color: #1f2937;; }
   h1 { font-size: 1.6rem; }
 }
